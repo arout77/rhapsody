@@ -1,6 +1,8 @@
-# Rhapsody
-### Ticket queuing and task management help desk
-
+# Rhapsody Help Desk
+### Ticket queuing and task management system
+---
+### 
+###
 [![DiamondPHP](https://diamondphp.org/powered-by.png)](https://diamondphp.org)
 
 #### _`Rhapsody is currently under development. IT IS NOT READY FOR USE! This message will be replaced with its current build status once a release candidate is ready,`_
@@ -47,4 +49,3 @@ Installation instructions will be available once Release Candidate 1 is ready
 
 MIT
 
-**This software is released under the MIT License**
