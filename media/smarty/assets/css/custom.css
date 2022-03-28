@@ -1,0 +1,286 @@
+/* Fix logo img and text sizes */
+#header a.logo>img {
+    height: 60px;
+    -webkit-transition: all .300s;
+    -moz-transition: all .300s;
+    -o-transition: all .300s;
+    transition: all .300s;
+}
+
+#header.fixed #topNav a.logo>img {
+    height: 42px;
+    margin-top: 7px;
+}
+
+#header .nav-toggle + .header-logo {
+  font-size: 20px;
+}
+
+a.header-logo span {
+  padding: 2px;
+}
+
+/* Fix slider */
+.swiper-slide {
+  background-image: url('http://localhost/diamondphp/media/smarty/assets/images/covers/ilya-pavlov-OqtafYT5kTw-unsplash.jpg');
+}
+/* Add box shadow to h1 on homepage slider */
+#slider div.slider-featured-text h1 {
+    text-shadow: rgb(33 33 33 / 85%) 1px 1px 3px;
+    font-family: Comfortaa, Josefin, Arial,Helvetica,sans-serif;
+}
+
+/* Fix font size in Comparison heading */
+div.mega-price-table .pricing-head h3 {
+    font-size: larger;
+}
+
+/* Text settings for logo */
+#topNav a.logo {
+    font-size: 42px;
+    font-family: 'Comfortaa';
+    /* background: -webkit-linear-gradient(#8bfb3f, #0b800f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+/* Info bar link color */
+.info-bar.info-bar-dark a {
+  color: rgb(227 105 105);
+}
+
+/* Fix nav menu text */
+nav.main-nav>div>ul .main-nav-submenu>ul li>a, nav.main-nav>div>ul .main-nav-submenu div.row>div>ul>li>a {
+color: #333;
+font-size: 18px;
+display: block;
+font-weight: 400;
+}
+
+/* Fix search bar in nav positioning */
+#header form.search-global {
+max-width: calc(100% - 600px);
+}
+
+.legend {
+padding: 0px 20px;
+margin: 20px 0 25px;
+border-left: 8px solid #c8081b !important;
+font-size: 24px !important;
+}
+
+pre {
+font-size: 14px;
+background-color: rgb(205, 217, 255);
+}
+
+/* Backgrounds */
+.bg-navy {
+    background-color: #001F3F !important; }
+  
+  .bg-blue {
+    background-color: #3DADFE !important; }
+  
+  .bg-aqua {
+    background-color: #7FDBFF !important; }
+  
+  .bg-teal {
+    background-color: #39CCCC !important; }
+  
+  .bg-olive {
+    background-color: #3D9970 !important; }
+  
+  .bg-green {
+    background-color: #2ECC40 !important; }
+  
+  .bg-lime {
+    background-color: #01FF70 !important; }
+  
+  .bg-yellow {
+    background-color: #FFDC00 !important; }
+    
+  .bg-gold {
+    background-color: hsl(54, 100%, 44%) !important; }
+  
+  .bg-orange {
+    background-color: #F03612 !important; }
+    
+  .bg-red {
+    background-color: #FF4136 !important; }
+  
+  .bg-fuchsia {
+    background-color: #F012BE !important; }
+  
+  .bg-purple {
+    background-color: #B10DC9 !important; }
+  
+  .bg-maroon {
+    background-color: #85144B !important; }
+  
+  .bg-white {
+    background-color: #fff !important; }
+  
+  .bg-gray {
+    background-color: #aaa !important; }
+  
+  .bg-silver {
+    background-color: #ddd !important; }
+  
+  .bg-black {
+    background-color: rgb(0, 0, 0) !important; }
+  
+  .bg-dark {
+    background-color: #404040 !important; }
+  
+  /* Colors */
+  .navy {
+    color: #000E44 !important; }
+  
+  .blue {
+    color: #3DADFE !important; }
+  
+  .aqua {
+    color: #7FDBFF !important; }
+  
+  .teal {
+    color: #39CCCC !important; }
+  
+  .olive {
+    color: #3D9970 !important; }
+  
+  .green {
+    color: #2ECC40 !important; }
+  
+  .lime {
+    color: #01FF70 !important; }
+  
+  .yellow {
+    color: #FFDC00 !important; }
+  
+  .gold {
+      color: hsl(54, 100%, 44%) !important; }
+  
+  .orange {
+    color: #f08e12 !important; }
+  
+  .red {
+    color: #C7081B !important; }
+  
+  .fuchsia {
+    color: #F012BE !important; }
+  
+  .purple {
+    color: #B10DC9 !important; }
+  
+  .maroon {
+    color: #85144B !important; }
+  
+  .white {
+    color: #fff !important; }
+  
+  .silver {
+    color: #ddd !important; }
+  
+  .gray {
+    color: #aaa !important; }
+  
+  .black {
+    color: #111 !important; }
+  
+  /* Border colors 
+  
+     Use with another border utility that sets border-width and style 
+     i.e .border { border-width: 1px; border-style: solid !important; }     
+  */
+  .border-navy {
+    border-color: #001F3F !important; }
+  
+  .border-blue {
+    border-color: #3DADFE !important; }
+  
+  .border-aqua {
+    border-color: #7FDBFF !important; }
+  
+  .border-teal {
+    border-color: #39CCCC !important; }
+  
+  .border-olive {
+    border-color: #3D9970 !important; }
+  
+  .border-green {
+    border-color: #2ECC40 !important; }
+  
+  .border-lime {
+    border-color: #01FF70 !important; }
+  
+  .border-yellow {
+    border-color: #FFDC00 !important; }
+  
+  .border-orange {
+    border-color: #F03612 !important; }
+  
+  .border-red {
+    border-color: #FF4136 !important; }
+  
+  .border-fuchsia {
+    border-color: #F012BE !important; }
+  
+  .border-purple {
+    border-color: #B10DC9 !important; }
+  
+  .border-maroon {
+    border-color: #85144B !important; }
+  
+  .border-white {
+    border-color: #fff !important; }
+  
+  .border-gray {
+    border-color: #aaa !important; }
+  
+  .border-silver {
+    border-color: #ddd !important; }
+  
+  .border-black {
+    border-color: #111 !important; }
+
+/* Radial backgrounds */
+
+.deepblue {
+    background: rgb(9,9,121);
+    background: -moz-radial-gradient(circle, rgba(9,9,121,1) 13%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(9,9,121,1) 13%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgba(9,9,121,1) 13%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090979",endColorstr="#00d4ff",GradientType=1);
+}
+
+.black-radial {
+    background: rgb(47,47,47);
+    background: -moz-radial-gradient(circle, rgba(47,47,47,1) 54%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(47,47,47,1) 54%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(47,47,47,1) 54%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2f2f2f",endColorstr="#000000",GradientType=1);
+}
+
+.cottoncandy {
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+
+.redvelvet {
+    background: rgb(169,3,41); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+.lemonlime {
+    background: rgb(210,255,82); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

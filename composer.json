@@ -1,0 +1,49 @@
+{
+    "name": "diamondphp/framework",
+    "type": "project",
+    "description": "Fully featured PHP 8 compatible framework",
+    "keywords": ["framework","PHP 8"],
+    "homepage": "https://github.com/arout77/diamondphp",
+    "version": "0.9.2-beta",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Rout",
+            "email": "arout@diamondphp.org",
+            "homepage": "https://diamondphp.org",
+            "role": "Developer"
+        }
+    ],
+	"require": {
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "ezyang/htmlpurifier": "^4.14",
+        "geoip2/geoip2": "~2.0",
+        "league/csv": "^9.0",
+        "pimple/pimple": "~3.0",
+        "smarty/smarty": "~3.1", 
+        "stefangabos/zebra_session": "*", 
+        "symfony/event-dispatcher": "^4.1",
+        "angelleye/paypal-php-library": "3.0.*",
+        "phpmailer/phpmailer": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Block\\": "app/blocks",
+            "App\\ControllerOverride\\": "public/override/controllers",
+            "App\\CoreControllerOverride\\": "app/code/override/controllers",
+            "App\\Config\\": "app/system/config",
+            "App\\Controller\\": "app/system/controllers",
+            "App\\Events\\": "public/events",
+            "App\\Listeners\\": "public/listeners",
+            "App\\Model\\": "app/system/models",
+            "App\\ModelOverride\\": "public/override/models",
+            "App\\CoreModelOverride\\": "app/override/models",
+            "App\\Plugin\\": "app/plugins",
+            "App\\Subscribers\\": "public/subscribers",
+            "App\\System\\": "app/system", 
+            "Web\\Controller\\": "public/controllers",
+            "Web\\Model\\": "public/models"
+        }
+    }
+}
