@@ -5,7 +5,6 @@ Help desk and issue tracking system
 ---
 ### 
 ###
-[![DiamondPHP](https://diamondphp.org/powered-by.png)](https://diamondphp.org)
 
 #### _`Rhapsody is currently under development. IT IS NOT READY FOR USE! This message will be replaced with its current build status once a release candidate is ready,`_
 
